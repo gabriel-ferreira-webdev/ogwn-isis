@@ -1,0 +1,17 @@
+/*
+.menu-featured, .view-articles #toolbar-featured, .view-articles #toolbar-unfeatured, .view-articles #articleList .btn-group a:nth-child(2), .view-articles #jform_featured-lbl, .view-articles #jform_featured, .view-articles #sidebar #submenu li:nth-child(3){
+  display:none!important;
+} */
+#jform_featured-lbl,#jform_featured,#toolbar-featured,#toolbar-unfeatured,.com_content #submenu li:nth-child(3), .menu-featured{
+  display:none;
+}
+.menu-featured{
+  position: absolute; top: -9999px; left: -9999px;
+  pointer-events: none;
+}
+#images .span6 .control-group{
+  display:none;
+}
+#images .span6:first-child .control-group:nth-child(-n+5){
+  display:inline-block;
+}
